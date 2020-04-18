@@ -29,3 +29,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### custon ###
+application-default.properties
