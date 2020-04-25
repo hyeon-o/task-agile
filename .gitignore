@@ -16,7 +16,7 @@ target/
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml 
+*.iml
 *.ipr
 
 ### NetBeans ###
@@ -33,3 +33,6 @@ build/
 ### custon ###
 application-default.properties
 doc/
+**/resources/static/
+**/resources/templates/
+
