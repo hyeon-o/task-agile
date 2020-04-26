@@ -82,7 +82,7 @@
         <version>1.6.0</version>
         <executions>
           <execution>
-            <id>font-end install</id>
+            <id>front-end install</id>
             <goals>
               <goal>exec</goal>
             </goals>
@@ -95,7 +95,7 @@
             </configuration>
           </execution>
           <execution>
-            <id>font-end unit test</id>
+            <id>front-end unit test</id>
             <goals>
               <goal>exec</goal>
             </goals>
@@ -109,7 +109,7 @@
             </configuration>
           </execution>
           <execution>
-            <id>font-end build package</id>
+            <id>front-end build package</id>
             <goals>
               <goal>exec</goal>
             </goals>
