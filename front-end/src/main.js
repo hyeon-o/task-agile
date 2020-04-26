@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import axios from 'axios'
 import store from './store'
+import Vuelidate from 'vuelidate'
 
 Vue.config.productionTip = false
+Vue.use(Vuelidate)
 
 axios.defaults.baseURL = '/api'
 axios.defaults.headers.common.Accept = 'application/json'
